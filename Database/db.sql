@@ -41,7 +41,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'asmshaon','$2y$13$P7EJ3TYdf3.uTCsUTSGeTuf4wtfsFXHmmPgMIKZwU9ps.qV9Wi0tK','srabon.php@gmail.com',1,'2021-06-03 00:00:00','2021-06-03 00:00:00','null');
+INSERT INTO `users` VALUES (1,'asmshaon','$2y$13$P7EJ3TYdf3.uTCsUTSGeTuf4wtfsFXHmmPgMIKZwU9ps.qV9Wi0tK','test.php@gmail.com',1,'2021-06-03 00:00:00','2021-06-03 00:00:00','null');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 

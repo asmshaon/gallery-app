@@ -65,20 +65,20 @@ class GalleryController extends BaseController
             }
 
             try {
-               /* $s3 = new S3Client([
-                    'region' => 'ap-southeast-1',
+                $s3 = new S3Client([
+                    'region' => 'xxxx',
                     'version' => 'latest',
                     'credentials' => [
-                        'key' => "AKIA3Q3QGOSJKTGK2HMC",
-                        'secret' => "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"
+                        'key' => "xxxxx",
+                        'secret' => "xxxx"
                     ]
                 ]);
-                $s3BucketName = 'dev-speshe-assets';
+                $s3BucketName = 'xxxx';
                 $upload = $s3->putObject([
                     'Bucket' => $s3BucketName,
                     'Key' => $key,
                     'Body' => fopen($_FILES['image']['tmp_name'], 'rb')
-                ]);*/
+                ]);
 
                 $gallery = new Gallery();
 

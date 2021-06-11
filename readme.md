@@ -6,12 +6,12 @@ Or you can run following command from console
 - mysql -u root -p < Gallery-App/Database/db.sql
 
 #2, #Run server 
--> Go inside gallery-api
+-> Go inside server
 -> composer install
 -> Run `php yii serve --port=8080`
 
 #3, #Run client 
--> Go inside gallery-client
+-> Go inside client
 -> npm install
 -> Run `npm start --port 3000`
 

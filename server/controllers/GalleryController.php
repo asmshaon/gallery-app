@@ -91,12 +91,10 @@ class GalleryController extends BaseController
 
                 return $this->asJson($gallery);
             } catch (Exception $exception) {
-                Yii::error($exception->getMessage());
+                throw new Exception('Unable to upload image, please try again');
             }
         }
 
-        return $this->asJson([
-            'message' => 'Unable to upload image, please try again'
-        ]);
+        throw new Exception('Unable to upload image, please try again');
     }
 }

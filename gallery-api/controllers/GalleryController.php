@@ -65,7 +65,7 @@ class GalleryController extends BaseController
             }
 
             try {
-                $s3 = new S3Client([
+               /* $s3 = new S3Client([
                     'region' => 'ap-southeast-1',
                     'version' => 'latest',
                     'credentials' => [
@@ -78,7 +78,7 @@ class GalleryController extends BaseController
                     'Bucket' => $s3BucketName,
                     'Key' => $key,
                     'Body' => fopen($_FILES['image']['tmp_name'], 'rb')
-                ]);
+                ]);*/
 
                 $gallery = new Gallery();
 
